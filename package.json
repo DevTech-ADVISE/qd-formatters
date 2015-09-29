@@ -1,0 +1,26 @@
+{
+  "name": "qd-formatters",
+  "version": "1.0.0",
+  "description": "Number formatters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuickDash/qd-formatters.git"
+  },
+  "keywords": [
+    "formatter",
+    "d3"
+  ],
+  "author": "BI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuickDash/qd-formatters/issues"
+  },
+  "homepage": "https://github.com/QuickDash/qd-formatters",
+  "dependencies": {
+    "d3": "^3.5.6"
+  }
+}
