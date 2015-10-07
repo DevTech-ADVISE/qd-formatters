@@ -1,6 +1,3 @@
-var formatter = {};
-
-
 
 var qdFormatter = function(d3) {
   var currency = d3.format("$,");
@@ -32,7 +29,7 @@ var qdFormatter = function(d3) {
     }else if(abs/1e3 >= 1){
      return generateBigFormatter(d, "currency") + "k";
     }else{
-     return formatter.currencyFormat(d);
+     return _formatters.currencyFormat(d);
     }
   }
   _formatters.bigNumberFormat = function(d){
@@ -47,7 +44,7 @@ var qdFormatter = function(d3) {
     }else if(abs/1e3 >= 1){
      return generateBigFormatter(d, "number") + "k";
     }else{
-     return formatter.numberFormat(d);
+     return _formatters.numberFormat(d);
     }
   }
 
