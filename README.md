@@ -7,7 +7,7 @@ This library formats numbers and currencies up to large numbers in the trillions
 Install
 
 ```
-npm install qd-formatters
+npm install --save git+https://github.com/QuickDash/qd-formatters
 ```
 
 Require in your code
