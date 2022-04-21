@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/QuickDash/qd-formatters.git"
+    "url": "https://github.com/DevTech-ADVISE/qd-formatters.git"
   },
   "keywords": [
     "formatter",
@@ -17,9 +17,9 @@
   "author": "BI",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/QuickDash/qd-formatters/issues"
+    "url": "https://github.com/DevTech-ADVISE/qd-formatters/issues"
   },
-  "homepage": "https://github.com/QuickDash/qd-formatters",
+  "homepage": "https://github.com/DevTech-ADVISE/qd-formatters",
   "dependencies": {
     "d3": "^3.5.6"
   },
